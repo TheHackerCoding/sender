@@ -1,4 +1,7 @@
 {
+  "name": "sender",
+  "version": "0.0.1",
+  "description": "a React Native app that allows you to send data via NFC",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -9,6 +12,7 @@
   },
   "dependencies": {
     "expo": "~42.0.1",
+    "expo-linking": "~2.3.1",
     "expo-status-bar": "~1.0.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
